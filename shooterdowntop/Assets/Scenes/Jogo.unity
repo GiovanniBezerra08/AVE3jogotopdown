@@ -427,33 +427,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1396566529 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 419457951079866900, guid: 7ede2a9286775b144a8a8d1aebd79493, type: 3}
-  m_PrefabInstance: {fileID: 8298303344226820690}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &1396566536
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1396566529}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: e7e403b321aad824e8e07cc8c350dd26, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &2617373157699768060
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -677,13 +650,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 1278625865179394577, guid: 7ede2a9286775b144a8a8d1aebd79493, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.554
+      objectReference: {fileID: 0}
+    - target: {fileID: 1278625865179394577, guid: 7ede2a9286775b144a8a8d1aebd79493, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.016
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 419457951079866900, guid: 7ede2a9286775b144a8a8d1aebd79493, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1396566536}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7ede2a9286775b144a8a8d1aebd79493, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
