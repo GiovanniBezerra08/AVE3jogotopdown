@@ -28,7 +28,7 @@ public class Player : Personagem
             spriteRenderer.flipX = false;
         }
         
-        if (arma.rotation.eulerAngles.z > -90 && arma.rotation.eulerAngles.z < 270)
+        if (arma.rotation.eulerAngles.z > 90 && arma.rotation.eulerAngles.z < 270)
         {
             spriteRenderer.flipX = true;
         }
