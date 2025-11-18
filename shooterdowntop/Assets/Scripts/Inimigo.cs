@@ -90,7 +90,6 @@ public class Inimigo : Personagem
     {
         //desativa o objeto do Inimigo
         //gameObject.SetActive(false);
-        Destroy(gameObject);
         Debug.Log("Teste...");
     }
 
