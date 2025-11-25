@@ -59,6 +59,7 @@ public class Player : Personagem
         }
         
         animator.SetBool("andando", andando);
-
+        
+      
     }
 }

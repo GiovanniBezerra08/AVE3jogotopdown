@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class BarraDeVida : MonoBehaviour
+public class BarraDeVidaPlayer : MonoBehaviour
 {
     public Slider sliderVidasRestantes;
     
@@ -29,7 +29,14 @@ public class BarraDeVida : MonoBehaviour
         }
 
        
+          
+        if (sliderVidasRestantes.value == 0)
+        {
+            SceneManager.LoadScene(0);
+        }
+
+        
     }
-    
+  
   
 }
