@@ -167,3 +167,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dano: 1
   velocidade: 5
+  somDisparo: {fileID: 8300000, guid: 153feb4b3729f4348a45010cd3490dc4, type: 3}
+  volumeSom: 1
